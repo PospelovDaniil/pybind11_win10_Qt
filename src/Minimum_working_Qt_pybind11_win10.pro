@@ -16,7 +16,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 INCLUDEPATH += G:/pybind11-master/include
-
 # обычный питон, что установлен в системе
 INCLUDEPATH += C:/Users/z/AppData/Local/Programs/Python/Python39/include
 
